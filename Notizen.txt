@@ -18,5 +18,5 @@ CREATE TABLE  "EMPLOYEES"
   USING INDEX  ENABLE
   );
 
-  EMP_HIRE_DATE_NN als DEFAULT Wert in einer Spalte mit dem Datentyp DATE wundert mich gerade.
-  Ich wunder mich sogar dass das Datenbankskript überhaupt bei Oracle funktioniert?!
+  OK anscheinend will Oracle hier ein Constraint Namen für eine Spalte mit Date Typ einfügen und kein DEFAULT Wert wie es mein Programm sonst machen würde.
+  Ich muss mich schlau machen wegen den Constraints für Dates.
